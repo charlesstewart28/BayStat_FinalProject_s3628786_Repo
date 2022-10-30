@@ -34,3 +34,4 @@ vis_dat(pga_data_raw)
 pga_sum <- as.data.frame(summarytools::descr(pgatour_slim))
 
 write.csv(pga_sum, 'pga_sum.csv')
+write.csv(pgatour_slim, 'pgatour_slim.csv', row.names=FALSE)
